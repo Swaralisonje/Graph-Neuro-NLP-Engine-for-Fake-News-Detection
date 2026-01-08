@@ -14,6 +14,8 @@ NLP embedding of news content
 
 Model training and evaluation
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🧠 Features
 
 ✔️ Build propagation graphs from social media datasets
@@ -22,17 +24,21 @@ Model training and evaluation
 ✔️ Support for Twitter15 and Twitter16 datasets
 ✔️ JSON metrics of performance ready for visualization
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🗃️ Dataset Preparation
 
 The repository already includes the datasets/ folder. If using external datasets, prepare them in the same structure.
 
 Supported datasets:
 
-Twitter15
-
-Twitter16
+  Twitter15
+  
+  Twitter16
 
 Each dataset should include graph propagation info and associated textual content.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🔍 Model Output
 
@@ -43,7 +49,10 @@ metrics_twitter15.json	  Evaluation metrics for Twitter15
 metrics_twitter16.json	  Evaluation metrics for Twitter16
 *.pth	                    Trained model weights
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🧠 How It Works
+
 Step 1: Preprocess Text
 
 Tokenize and vectorize news text using NLP techniques.
@@ -60,9 +69,13 @@ Step 4: Evaluation
 
 Evaluate using accuracy, F1, confusion matrix, etc.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 📊 Visualization
 
 Use the saved JSON metric files to plot performance curves (accuracy, loss, etc.) in tools like Matplotlib or Plotly.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📝 Acknowledgments
 
